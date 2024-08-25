@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h3>Add New Students</h3>
+                        <div class="msg"></div>
+                        <hr>
+                        <form id="student_form">
+                            <div class="my-3">
+                                <label for="">Name</label>
+                                <input class="form-control" name="name" placeholder="Enter your name" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">Email</label>
+                                <input class="form-control" name="email" placeholder="Enter your email" type="text">
+                                <span id="email_validation"></span>
+                            </div>
+                            <div class="my-3">
+                                <label for="">cell</label>
+                                <input class="form-control" name="cell" placeholder="Enter your cellnumber" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">username</label>
+                                <input class="form-control" name="uname" placeholder="Enter your username" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">gender :</label>
+                                <label for="">-
+                                    <input name="gender" value="male" type="radio">
+                                    Male
+                                </label>
+                                <label for="">
+                                    <input name="gender" value="female" type="radio">
+                                    Female
+                                </label>
+                                <div class="my-3">
+                                <label for="">course :</label>
+                                <label for="">
+                                    <input name="course" value="CSE" type="checkbox">
+                                    CSE
+                                </label>
+                                <label for="">
+                                    <input name="course" value="EEE" type="checkbox">
+                                    EEE
+                                </label>
+                                <label for="">
+                                    <input name="course" value="MATH" type="checkbox">
+                                    MATH
+                                </label>
+                                <label for="">
+                                    <input name="course" value="ENGLISH" type="checkbox">
+                                    ENGLISH
+                                </label>
+                            </div>
+                            </div>
+                            <div class="my-3">
+                                <img class="goranti" src="https://res.cloudinary.com/bytesizedpieces/image/upload/v1656084931/article/a-how-to-guide-on-making-an-animated-loading-image-for-a-website/animated_loader_gif_n6b5x0.gif" alt="">
+                                <button class="btn btn-sm btn-primary w-100" type="submit">Add new</button>
+                            </div>    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./app/functions.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
